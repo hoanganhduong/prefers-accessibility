@@ -60,22 +60,23 @@ html {
   }
 
 }
+/* stylelint-disable media-feature-name-no-unknown */
 
 @media (prefers-reduced-motion) {
+
   img {
     animation: none;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+
+  html {
     background-color: #000;
-    color: #fff;
   }
 
 }
-
-/* stylelint-disable media-feature-name-no-unknown */
 
 /**
  * =============
