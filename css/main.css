@@ -61,6 +61,16 @@ html {
 
 }
 
+@media (prefers-reduced-motion) {
+  img {
+    animation: none;
+  }
+}
+
+@media (prefers-color-scheme) {
+
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
