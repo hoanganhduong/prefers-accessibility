@@ -67,7 +67,11 @@ html {
   }
 }
 
-@media (prefers-color-scheme) {
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #fff;
+  }
 
 }
 
